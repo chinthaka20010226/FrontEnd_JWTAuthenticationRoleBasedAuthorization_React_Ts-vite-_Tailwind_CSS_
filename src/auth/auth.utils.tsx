@@ -15,10 +15,9 @@ export const setSession = (accessToken: string | null) => {
 
 //
 export const getSession = () => {
-    localStorage.getItem('accessToken');
+    return localStorage.getItem('accessToken');
 };
 
 // Who has access this
 export const allAccessRole = [RolesEnum.ADMIN,RolesEnum.USER];
 export const adminAccessRole = [RolesEnum.ADMIN];
-

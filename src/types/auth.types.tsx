@@ -51,7 +51,7 @@ export enum IAuthContextActionTypes {
 
 export interface IAuthContextAction {
     type: IAuthContextActionTypes;
-    payLoad?: IAuthUser;
+    payload?: IAuthUser;
 }
 
 export interface IAuthContext {
