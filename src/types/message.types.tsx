@@ -3,7 +3,7 @@ export interface ISendMessageDto {
     text: string;
 }
 
-export interface IMessageDto {
+export interface IMessageDto extends ISendMessageDto {
     id: number;
     senderUserName: string;
     createAt: string;
