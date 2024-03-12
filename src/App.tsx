@@ -1,6 +1,10 @@
+import GlobalRouter from "./routes"
+
 const App = () => {
   return (
-    <div className='bg-red-500 p-8'>App</div>
+    <div>
+      <GlobalRouter />
+    </div>
   )
 }
 
