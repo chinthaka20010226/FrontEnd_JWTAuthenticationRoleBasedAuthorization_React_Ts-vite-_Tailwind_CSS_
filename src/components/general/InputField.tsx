@@ -28,7 +28,7 @@ const InputField = ({control,label,inputName,inputType = 'text',error}: IProps) 
             <Controller 
                 name={inputName}
                 control={control}
-                render={({ field }) => <input {...field} autoComplete='off' type={inputType} className={dynamicClassName} />}
+                render={({ field }) => <input {...field} autoComplete='off' type={inputType} className={dynamicClassName} />}                                                    
             />
         </div>
     )
